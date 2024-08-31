@@ -20,7 +20,7 @@ func (v *Vectors) Map() []map[string]float64 {
 	return m
 }
 
-func GetVectors(descriptions []string) Vectors {
+func Generate(descriptions []string) Vectors {
 	var (
 		vectors     []vct.Vector
 		vectorUnits []vct.Unit
